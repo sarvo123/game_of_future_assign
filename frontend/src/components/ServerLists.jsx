@@ -12,7 +12,7 @@ function ServerLists() {
 
   const getServersList = async () => {
     try {
-      const res = await fetch("http://localhost:5000/servers");
+      const res = await fetch("/api/servers");
       if (!res.ok) throw new Error("Failed to fetch servers");
       const servers = await res.json();
       setServersList(servers);

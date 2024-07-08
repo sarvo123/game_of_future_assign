@@ -29,7 +29,7 @@ const PORT = process.env.PORT || 5000 ;
 //     res.send("hello don't worry !")
 // })
 
-app.use("/servers" , serverRoutes);
+app.use("/api/servers" , serverRoutes);
 
 app.use(express.static(path.join(__dirname ,'..', "/frontend","dist")));
 

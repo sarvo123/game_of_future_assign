@@ -11,7 +11,7 @@ function ServerInfo() {
   useEffect(() => {
     const getServerData = async () => {
       try {
-        const res = await fetch(`http://localhost:5000/servers/${id}`);
+        const res = await fetch(`/api/servers/${id}`);
         if (!res.ok) throw new Error("Failed to fetch server data");
         const serverData = await res.json();
         setServer(serverData);
