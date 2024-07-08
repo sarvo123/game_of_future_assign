@@ -1,0 +1,92 @@
+/* General styles */
+
+  
+  /* Server browser container */
+  .server-browser {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-color: rgba(179, 196, 224, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+  
+  /* Title */
+  .server-browser h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Server list container */
+  .server-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-color: black;
+  }
+  
+  /* Individual server item */
+  .server-item {
+    /* background: #e0c3c3; */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    transition: transform 0.3s ease;
+    border-color: rgb(198, 39, 39);
+    border-width: 78px;
+  }
+  
+  .server-item:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Server info container */
+  .server-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Server header */
+  .server-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Server image */
+  .server-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+    border-radius: 50%;
+  }
+  
+  /* Server name */
+  .server-name {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Server details */
+  .server-details {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Server status */
+  .server-status {
+    font-size: 14px;
+    /* line-gap-override: 30px; */
+  }
+  .server-status span {
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+  /* Link styling */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  

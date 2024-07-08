@@ -1,0 +1,84 @@
+body{
+    background: url("/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .server-info {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    backdrop-filter: blur(0px) saturate(200%);
+    -webkit-backdrop-filter: blur(0px) saturate(200%);
+    background-color: rgba(179, 196, 224, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+.server-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  
+}
+
+.server-details h2 {
+  margin-top: 0;
+}
+
+.server-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.server-details .hover {
+  margin-bottom: 10px;
+}
+
+.server-details .hover:hover {
+  background-color: #ede5ee5d;
+  color: black;
+}
+
+.server-details .label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.server-details .value {
+  font-weight: normal;
+}
+
+.server-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.server-header {
+  display: flex;
+  align-items: center;
+}
+
+.server-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.server-name {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.server-details,
+.server-status {
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+
+.server-status span {
+  margin-right: 5px;
+}
